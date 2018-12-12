@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+body, ul, li, a, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+    min-height: 100vh;
+    background:
+        radial-gradient(transparent, rgba(0,0,0,0.8)),
+        url("../img/bck.jpg");
+    background-size: cover;
+    background-position: 0 -70px;
+    font-family: arial;
+    color: white; */
+}
+header h1 {
+  font-size: 3rem;
+  float: left;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+
+header  span {
+  color: #9D0B0B;
+}
+
+nav {
+  float: right;
+  margin-right: 60px;
+  margin-top: 45px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 8px 16px;
+  margin: 0 5px;
+}
+
+main {
+  clear: both;
+
+}
+
+main  h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 8rem;
+}
+
+.text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+main h2 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.menu {
+  width: 12vw;
+  padding: 10px 16px;
+  margin-top: 50px;
+  border: none;
+  border-radius: 13px;
+  font-size: 1.5rem;
+  background-color: #9D0B0B;
+  color: white;
+  font-weight: 500;
+}
