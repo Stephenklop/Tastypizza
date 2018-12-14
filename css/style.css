@@ -78,4 +78,10 @@ main h2 {
   background-color: #9D0B0B;
   color: white;
   font-weight: 500;
+  transition:  500ms ease;
+}
+
+.menu:hover {
+  padding: 12px 18px;
+  transition: 500ms ease;
 }
